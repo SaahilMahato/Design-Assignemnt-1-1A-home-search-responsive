@@ -1,0 +1,69 @@
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    margin-bottom: 30px; /* meausred form tutangle image in figma*/
+}
+
+.float-left {
+    float: left;
+}
+  
+.float-right {
+    float: right;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 86px; /* meausred form tutangle image in figma*/
+    background-color: #7DD8E8;
+}
+
+main {
+    margin-top: 30px !important; /* meausred form tutangle image in figma*/
+    margin-bottom: 30px !important; /* meausred form tutangle image in figma*/
+}
+  
+.sidebar {
+    width: 194px; /* meausred form tutangle image in figma*/
+    height: 605px; /* meausred form tutangle image in figma*/
+    background-color: #F5F5F5;
+}
+  
+.sidebar-container {
+    margin: 0 auto;
+}
+
+.main-content {
+    width: 518px; /* meausred form tutangle image in figma*/
+    margin-left: 26px; /* meausred form tutangle image in figma*/
+}
+
+.right-sidebar {
+    height: 605px; /* meausred form tutangle image in figma*/
+    width: 177px; /* meausred form tutangle image in figma*/
+    background-color: #F5F5F5;
+}
+
+footer {
+    height: 12px;
+    margin: 0 auto;
+    background-color: #727272;
+    color: #F5F5F5;
+    padding: 18px 0px;
+}
+  

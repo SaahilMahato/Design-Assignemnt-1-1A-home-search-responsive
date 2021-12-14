@@ -1,0 +1,340 @@
+body {
+    font-family: 'Mulish';
+}
+
+.container {
+    width: 940px; /* meausred form tutangle image in figma*/
+    margin: 0 auto;
+    min-height: 18px; /* meausred form tutangle image in figma*/
+}
+
+.logo-container {
+    width: 585px; /* meausred form tutangle image in figma*/
+    height: 86px; /* meausred form tutangle image in figma*/
+    overflow: hidden;
+}
+  
+.logo-container input {
+    width: 280px; /* meausred form tutangle image in figma*/
+    height: 22px; /* meausred form tutangle image in figma*/
+    padding: 12px 0px;
+    border: none;
+    background: url('../images/search-bar.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #869494;
+    font-size: 10px;
+}
+
+.logo-container .search-bar {
+    margin-top: 28px; /* meausred form tutangle image in figma*/
+}
+
+.search-bar button {
+    width: 54px; /* meausred form tutangle image in figma*/
+    height: 20px; /* meausred form tutangle image in figma*/
+    font-weight: bold;
+    border: none;
+    font-size: 10px;
+    color: white;
+    background: url('../images/search-button.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search-bar button:hover {
+    cursor: pointer;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+.user-details {
+    text-align: right;
+    padding: 16px 0px;
+    font-weight: bold;
+}
+
+.user-details h4 {
+    font-size: 16px;
+}
+
+.user-details ul {
+    margin-top: 10px; /* meausred form tutangle image in figma*/
+}
+
+.user-details ul li {
+    display: inline;
+    border-right: 2px solid black;
+    padding: 0px 3px;
+    font-size: 14px;
+}
+
+.user-details ul li a:hover {
+    text-decoration: underline;
+}
+  
+.user-details-last-child {
+    padding: 0;
+    color: #969696;
+    border-right: none !important;
+}
+  
+.user-details span:hover {
+    cursor: pointer;
+}
+
+nav {
+    background: #F5F5F5;
+    padding: 12px 0px;
+    font-weight: bold;
+}
+  
+nav ul li {
+    display: inline;
+}
+  
+.nav-bar li {
+    margin-right: 10px; /* meausred form tutangle image in figma*/
+    margin-left: 12px; /* meausred form tutangle image in figma*/
+    font-size: 14px; 
+}
+  
+.nav-bar li:hover {
+    cursor: pointer;
+}
+
+.nav-bar li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+  
+nav .notifications {
+    font-size: 12px;
+}
+  
+.notifications li {
+    margin: 0;
+}
+  
+.notifications li:first-child {
+    margin-right: 30px; /* meausred form tutangle image in figma*/
+}
+
+.notifications-last-child {
+    color: #959595;
+}
+  
+.notifications img {
+    margin-right: 5px; /* meausred form tutangle image in figma*/
+}
+  
+.notifications span {
+    position: relative;
+    bottom: 3px;
+}
+
+main ul li {
+    list-style: none;
+    padding: 10px 13px;
+}
+  
+main ul li:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.sidebar li {
+    font-size: 12px;
+    font-weight: bold;
+}
+  
+.sidebar li span:first-child {
+    width: 152px; /* meausred form tutangle image in figma*/
+}
+  
+.list-heading {
+    color: #FFFFFF;
+    background-color: #2FC1DA;
+    padding: 12px 0px;
+}
+  
+.list-heading h2 {
+    font-size: 18px;
+    margin-left: 12px; /* meausred form tutangle image in figma*/
+    font-weight: bold;
+}
+
+.main-content h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.main-content h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main-content .entries {
+    margin-top: 6px; /* meausred form tutangle image in figma*/
+}
+  
+.entries-nav {
+    width: 100%;
+    border-bottom: 2px solid #2FC1DA;
+}
+  
+.entries-nav-items {
+    position: relative;
+}
+  
+.entries-nav-items .heading {
+    text-align: center;
+    margin-top: 10px;
+}
+  
+.left-nav {
+    width: 258px; /* meausred form tutangle image in figma*/
+    height: 66px; /* meausred form tutangle image in figma*/
+    background: url('../images/left-rounded-corner.png');
+}
+  
+.right-nav {
+    width: 258px; /* meausred form tutangle image in figma*/
+    height: 66px; /* meausred form tutangle image in figma*/
+    background: url('../images/right-rounded-corner.png');
+}
+  
+.nav-link-container {
+    width: 238px; /* meausred form tutangle image in figma*/
+    height: 28px; /* meausred form tutangle image in figma*/
+    position: absolute;
+    bottom: 0;
+    left: 9px;
+}
+  
+.nav-link {
+    width: 114px; /* meausred form tutangle image in figma*/
+    height: 28px; /* meausred form tutangle image in figma*/
+    background: url('../images/gray-button.png');
+    font-weight: bold;
+    position: relative;
+}
+  
+.nav-link:hover {
+    cursor: pointer;
+    background: url('../images/blue-button-hover.png');
+    color: #FFFFFF;
+}
+  
+.nav-link-container .active {
+    background: url('../images/blue-button.png');
+    color: #FFFFFF;
+}
+  
+.nav-link-container a {
+    color: #000000;
+    text-decoration: none;
+}
+  
+.nav-link-container .active a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+  
+.nav-link div {
+    margin-top: 9px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.blue-text {
+    color: #2F9EB1 !important; 
+}
+  
+.green-text {
+    color: #709720 !important; 
+}
+  
+.red-text {
+    color: #D53F1E !important;
+}
+
+.post {
+    width: 100%;
+    height: 72px; /* meausred form tutangle image in figma*/
+    padding: 14px 0px;
+    border-bottom: 1px solid #d8d8d8;
+}
+  
+.post a {
+    text-decoration: none;
+    color: #000000;
+}
+  
+.post div:first-child {
+    margin-right: 8px; /* meausred form tutangle image in figma*/
+}
+  
+.post p {
+    font-size: 12px;
+    margin: 2px 0px; /* meausred form tutangle image in figma*/
+    color: #6B6B6B;
+    font-weight: bold;
+}
+
+.post h2 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px; /* meausred form tutangle image in figma*/
+}
+
+.post h2:hover {
+    cursor: pointer;
+}
+
+.post-notification {
+    font-size: 10px !important; 
+    font-weight: bolder !important;
+    margin-bottom: 4px !important; /* meausred form tutangle image in figma*/
+}
+
+.right-sidebar {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.right-sidebar ul li {
+    padding: 12px 10px;
+}
+
+.sidebar li a:hover, .right-sidebar li a:hover {
+  border-bottom: none;
+}
+
+footer {
+    font-size: 10px;
+    font-weight: bold;
+}
+  
+footer ul li {
+    display: inline;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+  
+.dot {
+    margin: 0px 6px;
+}
+  
+footer a {
+    color: #FFFFFF;
+}
