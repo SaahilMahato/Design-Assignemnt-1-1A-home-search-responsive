@@ -420,7 +420,7 @@ header {
 }
 
 .logo-container {
-    width: 29.5em;
+    width: 28.5em;
     height: 12.6em;
     overflow: hidden;
 }
@@ -440,7 +440,7 @@ header {
 }
 
 .user-details {
-    float: left;
+    float: right;
 }
 
 .nav-bar {
@@ -463,7 +463,7 @@ header {
 }
 
 .main-content {
-    margin-left: 1em;
+    margin: 0 1em;
 }
 
 .post {
@@ -514,8 +514,4 @@ header {
     margin-left: 4em;
     margin-right: 3em;
     font-size: 1.4em;
-}
-
-.user-details {
-    margin-left: 0.4em;
 }

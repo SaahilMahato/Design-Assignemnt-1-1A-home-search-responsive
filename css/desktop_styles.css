@@ -51,7 +51,8 @@
     
     .main-content {
         width: 51.8em; /* meausred form tutangle image in figma*/
-        margin-left: 2.6em;
+        margin: 0;
+        margin-left: 2.4em;
     }
     
     .right-sidebar, .right-sidebar-small-screen {
