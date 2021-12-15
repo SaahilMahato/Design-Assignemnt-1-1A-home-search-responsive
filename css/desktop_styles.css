@@ -119,6 +119,7 @@
     .notifications {
         margin-top: 0;
         font-size: 1.2em;
+        margin-right: 0;
     }
       
     .notifications li {

@@ -1,7 +1,7 @@
 @media (min-width: 568px) {
 
     .container {
-        width: 56.8em;
+        width: 57em;
         margin: 0 auto;
     }
 
@@ -44,13 +44,13 @@
     .nav-bar {
         float: none;
         display: block;
-        margin: 0 auto
+        margin: 0 4em;
     }
 
     .notifications {
         float: none;
         display: block;
-        margin: 0 8em;
+        margin: 0 10em;
         margin-top: 1em;
     }
 
@@ -73,19 +73,21 @@
 
     .sidebar-small-screen {
         float: left;
-        width: 40%;
+        width: 39%;
         height: 100%;
         font-size: 1.4em;
         margin-right: 0;
+        margin-left: 4em;
     }
 
     .right-sidebar-small-screen {
         float: right;
-        width: 40%;
+        width: 39%;
         height: 100%;
         font-size: 1.4em;
         margin-top: 0;
         margin-left: 0;
+        margin-right: 4em;
     }
 
     .post {

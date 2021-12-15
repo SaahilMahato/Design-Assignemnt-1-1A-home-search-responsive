@@ -411,7 +411,7 @@ header {
 }
 
 .container {
-    width: 48em;
+    width: 52em;
     margin: 0 0.4em;
 }
 
@@ -446,12 +446,12 @@ header {
 .nav-bar {
     float: none;
     display: block;
-    margin-left: 0;
+    margin-left: 2em;
 }
 
 .nav-bar li {
     margin-right: 0.2em;
-    margin-left: 1.2em;
+    margin-left: 1.4em;
     font-size: 1.4em; 
 }
 
@@ -459,7 +459,7 @@ header {
     float: none;
     display: block;
     margin-top: 1em;
-    margin-left: 6em;
+    margin-left: 10em;
 }
 
 .main-content {
