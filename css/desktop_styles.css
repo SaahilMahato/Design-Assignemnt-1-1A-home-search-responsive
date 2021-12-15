@@ -25,6 +25,10 @@
     .logo-cont {
         float: left;
     }
+
+    .logo-container input {
+        margin-left: 1.4em;
+    }
     
     .logo-container .search-bar {
         margin-top: 2.8em; /* meausred form tutangle image in figma*/

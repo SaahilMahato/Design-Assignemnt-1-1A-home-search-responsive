@@ -73,7 +73,7 @@
 
     .sidebar-small-screen {
         float: left;
-        width: 38%;
+        width: 40%;
         height: 100%;
         font-size: 1.4em;
         margin-right: 0;
@@ -81,7 +81,7 @@
 
     .right-sidebar-small-screen {
         float: right;
-        width: 38%;
+        width: 40%;
         height: 100%;
         font-size: 1.4em;
         margin-top: 0;
