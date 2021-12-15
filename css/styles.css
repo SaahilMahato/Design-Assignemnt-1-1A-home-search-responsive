@@ -1,41 +1,36 @@
 body {
     font-family: 'Mulish';
-}
-
-.container {
-    width: 940px; /* meausred form tutangle image in figma*/
-    margin: 0 auto;
-    min-height: 18px; /* meausred form tutangle image in figma*/
+    font-size: 10px;
 }
 
 .logo-container {
-    width: 585px; /* meausred form tutangle image in figma*/
-    height: 86px; /* meausred form tutangle image in figma*/
+    width: 58.5em; /* meausred form tutangle image in figma*/
+    height: 8.6em; /* meausred form tutangle image in figma*/
     overflow: hidden;
 }
-  
+
+.logo-container .search-bar {
+    margin-top: 2.8em; /* meausred form tutangle image in figma*/
+}
+
 .logo-container input {
-    width: 280px; /* meausred form tutangle image in figma*/
-    height: 22px; /* meausred form tutangle image in figma*/
-    padding: 12px 0px;
+    width: 28.0em; /* meausred form tutangle image in figma*/
+    height: 2.2em; /* meausred form tutangle image in figma*/
+    padding: 1.2em 0em;
     border: none;
     background: url('../images/search-bar.png');
     background-repeat: no-repeat;
     background-position: center;
     color: #869494;
-    font-size: 10px;
-}
-
-.logo-container .search-bar {
-    margin-top: 28px; /* meausred form tutangle image in figma*/
+    font-size: 1em;
 }
 
 .search-bar button {
-    width: 54px; /* meausred form tutangle image in figma*/
-    height: 20px; /* meausred form tutangle image in figma*/
+    width: 5.4em; /* meausred form tutangle image in figma*/
+    height: 2em; /* meausred form tutangle image in figma*/
     font-weight: bold;
     border: none;
-    font-size: 10px;
+    font-size: 1em;
     color: white;
     background: url('../images/search-button.png');
     background-repeat: no-repeat;
@@ -46,10 +41,6 @@ body {
     cursor: pointer;
 }
 
-.link:hover {
-    cursor: pointer;
-}
-
 li a {
     color: black;
     text-decoration: none;
@@ -57,23 +48,23 @@ li a {
 
 .user-details {
     text-align: right;
-    padding: 16px 0px;
+    padding: 1.6em 0em;
     font-weight: bold;
 }
 
 .user-details h4 {
-    font-size: 16px;
+    font-size: 1.6em;
 }
 
 .user-details ul {
-    margin-top: 10px; /* meausred form tutangle image in figma*/
+    margin-top: 1em; /* meausred form tutangle image in figma*/
 }
 
 .user-details ul li {
     display: inline;
-    border-right: 2px solid black;
-    padding: 0px 3px;
-    font-size: 14px;
+    border-right: 0.2em solid black;
+    padding: 0em 0.3em;
+    font-size: 1.4em;
 }
 
 .user-details ul li a:hover {
@@ -90,9 +81,13 @@ li a {
     cursor: pointer;
 }
 
+.user-avatar {
+    display: none;
+}
+
 nav {
     background: #F5F5F5;
-    padding: 12px 0px;
+    padding: 1.2em 0em;
     font-weight: bold;
 }
   
@@ -101,9 +96,9 @@ nav ul li {
 }
   
 .nav-bar li {
-    margin-right: 10px; /* meausred form tutangle image in figma*/
-    margin-left: 12px; /* meausred form tutangle image in figma*/
-    font-size: 14px; 
+    margin-right: 1em; /* meausred form tutangle image in figma*/
+    margin-left: 1.2em; /* meausred form tutangle image in figma*/
+    font-size: 1.4em; 
 }
   
 .nav-bar li:hover {
@@ -116,7 +111,7 @@ nav ul li {
 }
   
 nav .notifications {
-    font-size: 12px;
+    font-size: 1.2em;
 }
   
 .notifications li {
@@ -124,7 +119,7 @@ nav .notifications {
 }
   
 .notifications li:first-child {
-    margin-right: 30px; /* meausred form tutangle image in figma*/
+    margin-right: 3em; /* meausred form tutangle image in figma*/
 }
 
 .notifications-last-child {
@@ -132,62 +127,62 @@ nav .notifications {
 }
   
 .notifications img {
-    margin-right: 5px; /* meausred form tutangle image in figma*/
+    margin-right: 0.5em; /* meausred form tutangle image in figma*/
 }
   
 .notifications span {
     position: relative;
-    bottom: 3px;
+    bottom: 0.3em;
 }
 
-main ul li {
+main ul li, .small-screen ul li {
     list-style: none;
-    padding: 10px 13px;
+    padding: 1em 1.3em;
 }
   
-main ul li:hover {
+main ul li:hover, .small-screen ul li:hover {
     cursor: pointer;
     background-color: #FFFFFF;
 }
 
-.sidebar li {
-    font-size: 12px;
+.sidebar li, .sidebar-small-screen li {
+    font-size: 1em;
     font-weight: bold;
 }
   
-.sidebar li span:first-child {
-    width: 152px; /* meausred form tutangle image in figma*/
+.sidebar li span:first-child, .sidebar-small-screen li span:first-child {
+    width: 15.2em; /* meausred form tutangle image in figma*/
 }
   
 .list-heading {
     color: #FFFFFF;
     background-color: #2FC1DA;
-    padding: 12px 0px;
+    padding: 1.2em 0em;
 }
   
 .list-heading h2 {
-    font-size: 18px;
-    margin-left: 12px; /* meausred form tutangle image in figma*/
+    font-size: 1.8em;
+    margin-left: 1.2em; /* meausred form tutangle image in figma*/
     font-weight: bold;
 }
 
 .main-content h1 {
-    font-size: 26px;
+    font-size: 2.6em;
     font-weight: bold;
 }
 
 .main-content h3 {
-    font-size: 14px;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
 .main-content .entries {
-    margin-top: 6px; /* meausred form tutangle image in figma*/
+    margin-top: 0.6em; /* meausred form tutangle image in figma*/
 }
   
 .entries-nav {
     width: 100%;
-    border-bottom: 2px solid #2FC1DA;
+    border-bottom: 0.2em solid #2FC1DA;
 }
   
 .entries-nav-items {
@@ -196,32 +191,34 @@ main ul li:hover {
   
 .entries-nav-items .heading {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1em;
 }
   
 .left-nav {
-    width: 258px; /* meausred form tutangle image in figma*/
-    height: 66px; /* meausred form tutangle image in figma*/
+    width: 25.8em; /* meausred form tutangle image in figma*/
+    height: 6.6em; /* meausred form tutangle image in figma*/
     background: url('../images/left-rounded-corner.png');
+    background-size: cover;
 }
   
 .right-nav {
-    width: 258px; /* meausred form tutangle image in figma*/
-    height: 66px; /* meausred form tutangle image in figma*/
+    width: 25.8em; /* meausred form tutangle image in figma*/
+    height: 6.6em; /* meausred form tutangle image in figma*/
     background: url('../images/right-rounded-corner.png');
+    background-size: cover;
 }
   
 .nav-link-container {
-    width: 238px; /* meausred form tutangle image in figma*/
-    height: 28px; /* meausred form tutangle image in figma*/
+    width: 23.8em; /* meausred form tutangle image in figma*/
+    height: 2.8em; /* meausred form tutangle image in figma*/
     position: absolute;
     bottom: 0;
-    left: 9px;
+    left: 0.9em;
 }
   
 .nav-link {
-    width: 114px; /* meausred form tutangle image in figma*/
-    height: 28px; /* meausred form tutangle image in figma*/
+    width: 11.4em; /* meausred form tutangle image in figma*/
+    height: 2.8em; /* meausred form tutangle image in figma*/
     background: url('../images/gray-button.png');
     font-weight: bold;
     position: relative;
@@ -249,9 +246,9 @@ main ul li:hover {
 }
   
 .nav-link div {
-    margin-top: 9px;
+    margin-top: 0.9em;
     text-align: center;
-    font-size: 12px;
+    font-size: 1.2em;
 }
 
 .blue-text {
@@ -268,9 +265,9 @@ main ul li:hover {
 
 .post {
     width: 100%;
-    height: 72px; /* meausred form tutangle image in figma*/
-    padding: 14px 0px;
-    border-bottom: 1px solid #d8d8d8;
+    height: 7.2em; /* meausred form tutangle image in figma*/
+    padding: 1.4em 0em;
+    border-bottom: 0.1em solid #d8d8d8;
 }
   
 .post a {
@@ -279,20 +276,20 @@ main ul li:hover {
 }
   
 .post div:first-child {
-    margin-right: 8px; /* meausred form tutangle image in figma*/
+    margin-right: 0.8em; /* meausred form tutangle image in figma*/
 }
   
 .post p {
-    font-size: 12px;
-    margin: 2px 0px; /* meausred form tutangle image in figma*/
+    font-size: 1.2em;
+    margin: 0.2em 0em; /* meausred form tutangle image in figma*/
     color: #6B6B6B;
     font-weight: bold;
 }
 
 .post h2 {
     font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 6px; /* meausred form tutangle image in figma*/
+    font-size: 1.4em;
+    margin-bottom: 0.6em; /* meausred form tutangle image in figma*/
 }
 
 .post h2:hover {
@@ -300,26 +297,30 @@ main ul li:hover {
 }
 
 .post-notification {
-    font-size: 10px !important; 
+    font-size: 1em !important; 
     font-weight: bolder !important;
-    margin-bottom: 4px !important; /* meausred form tutangle image in figma*/
+    margin-bottom: 0.4em !important; /* meausred form tutangle image in figma*/
 }
 
-.right-sidebar {
-    font-size: 12px;
+.right-sidebar, .right-sidebar-small-screen {
+    font-size: 1.2em;
     font-weight: bold;
 }
 
-.right-sidebar ul li {
-    padding: 12px 10px;
+.right-sidebar h2, .right-sidebar-small-screen h2 {
+    font-size: 1.4em;
 }
 
-.sidebar li a:hover, .right-sidebar li a:hover {
+.right-sidebar ul li, .right-sidebar-small-screen ul li {
+    padding: 1.2em 1em;
+}
+
+.sidebar li a:hover, .right-sidebar li a:hover, .sidebar-small-screen li a:hover, .right-sidebar-small-screen li a:hover {
   border-bottom: none;
 }
 
 footer {
-    font-size: 10px;
+    font-size: 1em;
     font-weight: bold;
 }
   
@@ -332,7 +333,7 @@ footer ul li a:hover{
 }
   
 .dot {
-    margin: 0px 6px;
+    margin: 0em 0.6em;
 }
   
 footer a {

@@ -1,5 +1,5 @@
 .clearfix {
-    overflow: auto;
+    overflow: none;
 }
 
 .clearfix:after {
@@ -11,8 +11,8 @@
 .wrapper {
     width: 100%;
     margin: 0 auto;
+    font-size: 10px;
     background-color: #FFFFFF;
-    margin-bottom: 30px; /* meausred form tutangle image in figma*/
 }
 
 .float-left {
@@ -24,46 +24,50 @@
 }
 
 .container {
+    width: 94.0em; /* meausred form tutangle image in figma*/
     margin: 0 auto;
 }
 
 header {
-    width: 100%;
-    height: 86px; /* meausred form tutangle image in figma*/
+    height: 8.6em; /* meausred form tutangle image in figma*/
     background-color: #7DD8E8;
 }
 
 main {
-    margin-top: 30px !important; /* meausred form tutangle image in figma*/
-    margin-bottom: 30px !important; /* meausred form tutangle image in figma*/
+    margin-top: 3em !important; /* meausred form tutangle image in figma*/
+    margin-bottom: 3em !important; /* meausred form tutangle image in figma*/
 }
   
-.sidebar {
-    width: 194px; /* meausred form tutangle image in figma*/
-    height: 605px; /* meausred form tutangle image in figma*/
+.sidebar, .sidebar-small-screen {
+    width: 19.4em; /* meausred form tutangle image in figma*/
+    height: 60.5em; /* meausred form tutangle image in figma*/
     background-color: #F5F5F5;
 }
-  
+
 .sidebar-container {
     margin: 0 auto;
 }
 
 .main-content {
-    width: 518px; /* meausred form tutangle image in figma*/
-    margin-left: 26px; /* meausred form tutangle image in figma*/
+    width: 51.8em; /* meausred form tutangle image in figma*/
+    margin-left: 2.6em;
 }
 
-.right-sidebar {
-    height: 605px; /* meausred form tutangle image in figma*/
-    width: 177px; /* meausred form tutangle image in figma*/
+.right-sidebar, .right-sidebar-small-screen {
+    width: 15em; /* meausred form tutangle image in figma*/
+    height: 50.5em;
     background-color: #F5F5F5;
 }
 
 footer {
-    height: 12px;
+    height: 1.2em;
     margin: 0 auto;
     background-color: #727272;
     color: #F5F5F5;
-    padding: 18px 0px;
+    padding: 1.8em 0em;
+}
+
+.small-screen {
+    display: none;
 }
   
