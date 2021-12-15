@@ -1,0 +1,162 @@
+@media (min-width: 768px) {
+
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 10px;
+        background-color: #FFFFFF;
+    }
+    
+    .container {
+        width: 94.0em; /* meausred form tutangle image in figma*/
+        margin: 0 auto;
+    }
+
+    .logo-container {
+        width: 58.5em; /* meausred form tutangle image in figma*/
+        height: 8.6em; /* meausred form tutangle image in figma*/
+        overflow: hidden;
+    }
+
+    .logo-container img {
+        margin-left: 0;
+    }
+
+    .logo-cont {
+        float: left;
+    }
+    
+    .logo-container .search-bar {
+        margin-top: 2.8em; /* meausred form tutangle image in figma*/
+    }
+    
+    header {
+        height: 8.6em; /* meausred form tutangle image in figma*/
+        background-color: #7DD8E8;
+    }
+      
+    .sidebar, .sidebar-small-screen {
+        width: 19.4em; /* meausred form tutangle image in figma*/
+        height: 60.5em; /* meausred form tutangle image in figma*/
+        background-color: #F5F5F5;
+    }
+    
+    .sidebar-container {
+        margin: 0 auto;
+    }
+    
+    .main-content {
+        width: 51.8em; /* meausred form tutangle image in figma*/
+        margin-left: 2.6em;
+    }
+    
+    .right-sidebar, .right-sidebar-small-screen {
+        width: 15em; /* meausred form tutangle image in figma*/
+        height: 50.5em;
+        background-color: #F5F5F5;
+    }
+    
+    footer {
+        height: 1.2em;
+        margin: 0 auto;
+        background-color: #727272;
+        color: #F5F5F5;
+        padding: 1.8em 0em;
+    }
+    
+    .small-screen {
+        display: none;
+    }
+
+    .logo-container {
+        width: 58.5em; /* meausred form tutangle image in figma*/
+        height: 8.6em; /* meausred form tutangle image in figma*/
+        overflow: hidden;
+    }
+    
+    .sidebar {
+        display: block;
+    }
+    
+    .right-sidebar {
+        display: block;
+    }
+    
+    nav {
+        background: #F5F5F5;
+        padding: 1.2em 0em;
+        font-weight: bold;
+    }
+
+    .nav-bar {
+        margin-left: 0;
+    }
+      
+    nav ul li {
+        display: inline;
+    }
+      
+    .nav-bar li {
+        margin-right: 1em; /* meausred form tutangle image in figma*/
+        margin-left: 1.4em; /* meausred form tutangle image in figma*/
+        font-size: 1.4em; 
+    }
+    
+    .nav-bar li:hover {
+        cursor: pointer;
+    }
+    
+    .nav-bar li a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+      
+    .notifications {
+        margin-top: 0;
+        font-size: 1.2em;
+    }
+      
+    .notifications li {
+        margin: 0;
+    }
+      
+    .notifications li:first-child {
+        margin-right: 3em; /* meausred form tutangle image in figma*/
+    }
+    
+    .notifications-last-child {
+        color: #959595;
+    }
+      
+    .notifications img {
+        margin-right: 0.5em; /* meausred form tutangle image in figma*/
+    }
+      
+    .notifications span {
+        position: relative;
+        bottom: 0.3em;
+    }
+
+    .nav-bar {
+        float: left;
+    }
+
+    .nav-bar li:first-child {
+        margin-left: 0;
+    }
+
+    .notifications {
+        float: right;
+        margin-top: -1.2em;
+    }
+
+    .search-bar {
+        float: right;
+        margin-right: 0;
+    }
+
+    .user-details {
+        float: right;
+        margin-left: 0;
+    }
+}
